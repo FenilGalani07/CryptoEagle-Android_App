@@ -4,11 +4,6 @@ Welcome to **CryptoEagle**, an innovative Android application designed to secure
 
 ---
 
-### ✍️ Random Security Quote
-
-![Random Security Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&text=Security%20is%20not%20a%20product%2C%20but%20a%20process.%20-%20Bruce%20Schneier)
-
-
 ## 📱 Features
 
 - **Text Encryption**: Convert plain text into a secure format using advanced encryption techniques.
