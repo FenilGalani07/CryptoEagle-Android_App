@@ -16,14 +16,14 @@ Welcome to **CryptoEagle**, an innovative Android application designed to secure
 
 ## 📦 Installation
 
-1. Clone the repository:
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/FenilGalani07/CryptoEagle.git
    ```
 
-2. Open the project in Android Studio.
+2. **Open the project in Android Studio**.
 
-3. Build and run the app on your Android device or emulator.
+3. **Build and run the app** on your Android device or emulator.
 
 ---
 
@@ -45,20 +45,20 @@ Welcome to **CryptoEagle**, an innovative Android application designed to secure
 
 We welcome contributions! If you have suggestions or improvements, please fork the repository and submit a pull request.
 
-1. Fork the repository.
-2. Create your feature branch:
+1. **Fork the repository**.
+2. **Create your feature branch**:
    ```bash
    git checkout -b feature/YourFeature
    ```
-3. Commit your changes:
+3. **Commit your changes**:
    ```bash
    git commit -m 'Add some feature'
    ```
-4. Push to the branch:
+4. **Push to the branch**:
    ```bash
    git push origin feature/YourFeature
    ```
-5. Open a pull request.
+5. **Open a pull request**.
 
 ---
 
@@ -73,7 +73,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For any inquiries or support, please reach out to the project maintainer:
 
 - **Name**: Fenil Galani
-- **Email**: [fenilgalani111@gmail.com](mailto:your-fenilgalani111@gmail.com)
+- **Email**: [fenilgalani111@gmail.com](mailto:fenilgalani111@gmail.com)
+
+---
+
+## ✍️ Random Security Quote
+
+![Random Security Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&text=Security%20is%20not%20a%20product%2C%20but%20a%20process.%20-%20Bruce%20Schneier)
 
 ---
 
