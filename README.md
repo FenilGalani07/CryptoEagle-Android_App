@@ -77,10 +77,5 @@ For any inquiries or support, please reach out to the project maintainer:
 
 ---
 
-## ✍️ Random Security Quote
-
-![Random Security Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&text=Security%20is%20not%20a%20product%2C%20but%20a%20process.%20-%20Bruce%20Schneier)
-
----
 
 Thank you for using **CryptoEagle**! Your privacy is our priority. Enjoy secure communication!
