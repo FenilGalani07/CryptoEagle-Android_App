@@ -47,7 +47,7 @@ Before you begin, ensure you have the following installed:
    git clone https://github.com/FenilGalani07/CryptoEagle.git
    ```
 
-3. **Open the project in Android Studio**:
+2. **Open the project in Android Studio**:
    
    - Launch Android Studio.
      
@@ -55,7 +55,7 @@ Before you begin, ensure you have the following installed:
      
    - Navigate to the cloned `CryptoEagle` directory and open it.
 
-5. **Build and run the app** on your Android device or emulator:
+3. **Build and run the app** on your Android device or emulator:
    
    - Connect your Android device or start an emulator.
      
@@ -135,4 +135,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For any inquiries or support, please reach out to the project maintainer:
 
 - **Name**: Fenil Galani
-- **Email**: [fenilgalani111@gmail.com](mailto:fenilgalani
+- **Email**: [fenilgalani111@gmail.com](mailto:fenilgalani111@gmail.com)
