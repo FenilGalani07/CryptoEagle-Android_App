@@ -78,7 +78,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For any inquiries or support, please reach out to the project maintainer:
 
 - **Name**: Fenil Galani
-- **Email**: [your-fenilgalani111@gmail.com](mailto:your-fenilgalani111@gmail.com)
+- **Email**: [fenilgalani111@gmail.com](mailto:your-fenilgalani111@gmail.com)
 
 ---
 
