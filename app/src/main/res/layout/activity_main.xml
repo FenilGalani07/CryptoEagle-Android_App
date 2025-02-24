@@ -29,93 +29,93 @@
                 android:layout_gravity="center"
                 android:text="CryptoEagle"
                 android:textColor="#EDC9AE"
-                android:textSize="40sp"
-                android:textStyle="bold"/>
+                android:textSize="30sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
-            <LinearLayout
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp">
+
+            <View
+                android:id="@+id/devider1"
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:background="#66FAFAFA" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp">
+
+            <ViewFlipper
+                android:id="@+id/vf"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:background="#66FAFAFA" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp">
+
+            <Button
+                android:id="@+id/encd"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="5dp">
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/cardview_light_background"
+                android:text="Encryption"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#0000FF" />
 
-                <View
-                    android:id="@+id/devider1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="10dp"
-                    android:background="#66FAFAFA"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp">
 
-            </LinearLayout>
-        
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginTop="5dp">
+            <Button
+                android:id="@+id/decd"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/cardview_light_background"
+                android:text="Decryption"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#0000FF" />
 
-                    <ViewFlipper
-                        android:id="@+id/vf"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"/>
-
-                </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="5dp">
-
-                        <View
-                            android:layout_width="wrap_content"
-                            android:layout_height="10dp"
-                            android:background="#66FAFAFA"/>
-
-                    </LinearLayout>
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:orientation="vertical"
-                                android:layout_gravity="center"
-                                android:layout_marginTop="5dp">
-
-                                <Button
-                                    android:id="@+id/encd"
-                                    android:layout_width="280dp"
-                                    android:layout_height="wrap_content"
-                                    android:layout_gravity="center"
-                                    android:layout_margin="5dp"
-                                    android:backgroundTint="@color/cardview_light_background"
-                                    android:text="Encryption"
-                                    android:textSize="25dp"
-                                    android:textStyle="bold"
-                                    android:textColor="#0000FF"/>
-
-                            </LinearLayout>
-                                     <LinearLayout
-                                        android:layout_width="match_parent"
-                                        android:layout_height="wrap_content"
-                                        android:orientation="vertical"
-                                        android:layout_gravity="center"
-                                        android:layout_marginTop="5dp">
-
-                                        <Button
-                                            android:id="@+id/decd"
-                                            android:layout_width="280dp"
-                                            android:layout_height="wrap_content"
-                                            android:layout_gravity="center"
-                                            android:layout_margin="5dp"
-                                            android:backgroundTint="@color/cardview_light_background"
-                                            android:text="Decryption"
-                                            android:textSize="25dp"
-                                            android:textStyle="bold"
-                                            android:textColor="#0000FF"/>
-
-                                    </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>
