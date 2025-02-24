@@ -8,9 +8,161 @@
     tools:context=".Encoder">
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
 
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Encrypter"
+                android:textSize="35sp"
+                android:textColor="#EDC9AE"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
 
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp">
+
+                <View
+                    android:id="@+id/divider1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:background="#66FAFAFA"/>
+
+            </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="Enter Your Text Here:-"
+                            android:textSize="25sp"
+                            android:textColor="#ECD9AE"
+                            android:layout_marginTop="5dp"
+                            android:layout_gravity="left"/>
+
+
+                            <EditText
+                                android:id="@+id/etenc"
+                                android:layout_width="360dp"
+                                android:layout_height="60dp"
+                                android:layout_gravity="center"
+                                android:textSize="25sp"
+                                android:textColor="#FAFAFA"
+                                android:layout_marginTop="5dp"/>
+
+                                 <Button
+                                    android:id="@+id/btnenc"
+                                    android:layout_width="230dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:textStyle="bold"
+                                    android:backgroundTint="@color/cardview_light_background"
+                                    android:text="Encrypt"
+                                    android:textSize="20sp"
+                                    android:onClick="enc"
+                                     android:textColor="#0000FF"/>
+
+                    </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="15dp">
+
+
+                            <View
+                                android:id="@+id/divider2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="10dp"
+                                android:background="#66FAFAFA"/>
+
+                        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="383dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:text="Your Encrypted Text is Here:-"
+                android:textColor="#ECD9AE"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/enctv"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="left"
+                android:layout_marginTop="5dp"
+                android:textColor="#FAFAFA"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="15dp">
+                                    
+                                    
+                                    
+                                    <Button
+                                        android:id="@+id/btndcp2"
+                                        android:layout_width="230dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:textStyle="bold"
+                                        android:backgroundTint="@color/cardview_light_background"
+                                        android:text="Copy"
+                                        android:textSize="20sp"
+                                        android:onClick="cp2"
+                                        android:textColor="#0000FF"/>
+
+                                </LinearLayout>
+
+                        </LinearLayout>
 
 </ScrollView>

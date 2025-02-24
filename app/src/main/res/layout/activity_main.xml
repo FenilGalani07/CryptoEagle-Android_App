@@ -82,7 +82,7 @@
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical"
                                 android:layout_gravity="center"
-                                android:layout_marginTop="30dp">
+                                android:layout_marginTop="5dp">
 
                                 <Button
                                     android:id="@+id/encd"
@@ -102,7 +102,7 @@
                                         android:layout_height="wrap_content"
                                         android:orientation="vertical"
                                         android:layout_gravity="center"
-                                        android:layout_marginTop="30dp">
+                                        android:layout_marginTop="5dp">
 
                                         <Button
                                             android:id="@+id/decd"
