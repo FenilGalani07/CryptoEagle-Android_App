@@ -27,7 +27,7 @@
                 android:text="Decrypter"
                 android:textSize="35sp"
                 android:textColor="#EDC9AE"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
         </LinearLayout>
 
@@ -43,7 +43,7 @@
                 android:id="@+id/divider1"
                 android:layout_width="wrap_content"
                 android:layout_height="10dp"
-                android:background="#66FAFAFA"/>
+                android:background="#66FAFAFA" />
 
         </LinearLayout>
 
@@ -63,7 +63,7 @@
                 android:textSize="25sp"
                 android:textColor="#ECD9AE"
                 android:layout_marginTop="5dp"
-                android:layout_gravity="left"/>
+                android:layout_gravity="left" />
 
 
             <EditText
@@ -73,7 +73,7 @@
                 android:layout_gravity="center"
                 android:textSize="25sp"
                 android:textColor="#FAFAFA"
-                android:layout_marginTop="5dp"/>
+                android:layout_marginTop="5dp" />
 
             <Button
                 android:id="@+id/btndec"
@@ -85,7 +85,7 @@
                 android:text="Decrypt"
                 android:textSize="20sp"
                 android:onClick="dec"
-                android:textColor="#0000FF"/>
+                android:textColor="#0000FF" />
 
         </LinearLayout>
 
@@ -102,7 +102,7 @@
                 android:id="@+id/divider2"
                 android:layout_width="wrap_content"
                 android:layout_height="10dp"
-                android:background="#66FAFAFA"/>
+                android:background="#66FAFAFA" />
 
         </LinearLayout>
 
@@ -157,7 +157,7 @@
                 android:text="Copy"
                 android:textSize="20sp"
                 android:onClick="cp1"
-                android:textColor="#0000FF"/>
+                android:textColor="#0000FF" />
 
         </LinearLayout>
 
