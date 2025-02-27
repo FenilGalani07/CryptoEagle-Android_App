@@ -129,7 +129,7 @@
             <TextView
                 android:id="@+id/dectv"
                 android:layout_width="match_parent"
-                android:layout_height="61dp"
+                android:layout_height="60dp"
                 android:layout_gravity="left"
                 android:layout_marginTop="5dp"
                 android:textColor="#FAFAFA"
