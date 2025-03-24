@@ -1,4 +1,4 @@
-package com.example.cryptoeagle;
+package com.fenil.cryptoeagle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,8 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ViewFlipper;
+
+import com.fenil.cryptoeagle.R;
 
 public class MainActivity extends AppCompatActivity
 {

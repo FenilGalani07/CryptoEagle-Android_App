@@ -1,4 +1,4 @@
-package com.example.cryptoeagle;
+package com.fenil.cryptoeagle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,6 +10,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.fenil.cryptoeagle.R;
 
 public class Decoder extends AppCompatActivity
 {

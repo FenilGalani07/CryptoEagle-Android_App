@@ -1,4 +1,4 @@
-package com.example.cryptoeagle;
+package com.fenil.cryptoeagle;
 
 import android.content.Context;
 
